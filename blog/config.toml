@@ -2,3 +2,15 @@ baseURL = "https://diegolinkk.github.io"
 languageCode = "pt-br"
 title = "Diegolinkk"
 theme = "ananke"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
