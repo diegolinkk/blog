@@ -2,6 +2,8 @@ baseURL = "https://diegolinkk.github.io"
 languageCode = "pt-br"
 title = "Diegolinkk"
 theme = "ananke"
+googleAnalytics = "UA-157713281-1"
+
 
 [markup]
   [markup.highlight]
@@ -14,3 +16,6 @@ theme = "ananke"
     noClasses = true
     style = "dracula"
     tabWidth = 4
+  
+[params]
+  twitter = "https://twitter.com/diegolinkk"
