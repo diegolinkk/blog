@@ -1,0 +1,12 @@
+comandos:
+hugo : publica o html na pasta public
+hugo -D  : publica inclusive os rascunhos
+
+ordem de deploy:
+
+a pasta public tem um submódulo git e isso significa que ela tem um repositório próprio que não enxerga seu repositório superior
+
+então para fazer um deploy mais "limpo", após tudo estiver ok e já com html publicado, eu faço commit na pasta public, depois volto um nível
+e faço o commit da pasta raiz porque o git da pasta raiz também monitora a pasta public
+
+OBSERVAÇÃO: A PASTA RAIZ NÃO É A BLOG, E SIM A ANTERIOR
