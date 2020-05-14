@@ -2,6 +2,7 @@
 title: "Compartilhando pasta local com Container no Docker Toolbox"
 date: 2020-05-14T16:15:00+01:00
 draft: false
+tags: ["docker"]
 ---
 
 Para compartilhar arquivos entre host e container, devemos montar um volume e fazer a ligação entre eles pelo comando:

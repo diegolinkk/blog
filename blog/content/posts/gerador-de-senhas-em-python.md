@@ -2,6 +2,7 @@
 title: "Gerador De Senhas Em Python"
 date: 2020-02-01T16:08:27-03:00
 draft: false
+tags: ["python"]
 ---
 
 Nesse post nós vamos criar um gerador de senhas simples em Python. 
