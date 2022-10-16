@@ -4,7 +4,6 @@ title = "Diegolinkk"
 theme = "ananke"
 googleAnalytics = "UA-157713281-1"
 
-
 [markup]
   [markup.highlight]
     codeFences = true
@@ -17,8 +16,18 @@ googleAnalytics = "UA-157713281-1"
     style = "dracula"
     tabWidth = 4
   
-[params]
-  twitter = "https://twitter.com/diegolinkk"
 
 [taxonomies]
   tag = "tags"
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'Sobre mim'
+  pre = "<i class='fa fa-heart'></i>"
+  url = '/about/'
+
+[[menu.main]]
+  identifier = 'colinha'
+  name = 'colinha de comandos'
+  url = '/colinha/'

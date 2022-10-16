@@ -4,7 +4,7 @@ date: 2020-01-30T22:39:39-03:00
 draft: true
 ---
 
-# Usando hilight de código
+# Usando highlight de código
 
 {{< highlight python >}}
     lista = [1,2,3,4,5,6]
