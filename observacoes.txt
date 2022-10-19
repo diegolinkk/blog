@@ -12,3 +12,16 @@ e faço o commit da pasta raiz porque o git da pasta raiz também monitora a pas
 
 OBSERVAÇÃO: A PASTA RAIZ NÃO É A BLOG, E SIM A ANTERIOR
 
+Se eu quiser adicionar menu nos links, só seguir essa estrutura no config.toml:
+
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'Sobre mim'
+  url = '/about/'
+
+[[menu.main]]
+  identifier = 'colinha'
+  name = 'colinha de comandos'
+  url = '/colinha/'
