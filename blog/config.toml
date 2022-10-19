@@ -15,7 +15,10 @@ googleAnalytics = "UA-157713281-1"
     noClasses = true
     style = "dracula"
     tabWidth = 4
-  
+
+[params]
+  linkedin = "https://www.linkedin.com/in/diego-oliveira-da-silva-269591a9/"
+  github = "github.com/diegolinkk"
 
 [taxonomies]
   tag = "tags"
@@ -24,7 +27,6 @@ googleAnalytics = "UA-157713281-1"
 [[menu.main]]
   identifier = 'about'
   name = 'Sobre mim'
-  pre = "<i class='fa fa-heart'></i>"
   url = '/about/'
 
 [[menu.main]]

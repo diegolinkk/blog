@@ -18,7 +18,7 @@ O primeiro elemento do array é sempre o nome do script e os demais são os argu
 Vamos criar um script que exibe:
 - o nome do script
 - o primeiro argumento passado
-- o primeiro segundo passado
+- o segundo passado
 
 {{<highlight php>}}
 
